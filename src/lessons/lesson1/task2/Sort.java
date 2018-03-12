@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Sort {
     public static void main(String[] args) {
-        int[] array = new int[]{3, 5, -3, 0, 6, -1, 5, 6, 2, 4, -9, 4, 7, 0, 7, 4, 0, 2, -6, 9};
+        int[] array = new int[]{3, 5, -3, 0, 6, -1, 5, 6, 2, 4, -9, 4, 7, 0, 7, 4, 2, -6, 9};
         int[] array1 = new int[]{3, 5, -3, 0, 6, -1, 5, 6, 2, 4};
 
         System.out.println("Before sort: " + Arrays.toString(array));
