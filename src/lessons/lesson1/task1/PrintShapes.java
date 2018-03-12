@@ -2,11 +2,11 @@ package lessons.lesson1.task1;
 
 public class PrintShapes {
     public static void main(String[] args) {
-        printEquilateralTriangle(7);
+        printRhombus(11);
 
         System.out.println();
 
-        printRhombus(7);
+        printEquilateralTriangle(7);
 
         System.out.println();
 
@@ -18,8 +18,8 @@ public class PrintShapes {
     }
 
     public static void printRectangle(int m, int n) {
-
-//        for (int i = 0; i < m; ++i) {                           By condition
+//              BY CONDITION
+//        for (int i = 0; i < m; ++i) {
 //            for (int j = 0; j < n; ++j) {
 //                System.out.print("* ");
 //            }
@@ -92,29 +92,31 @@ public class PrintShapes {
 
 
     public static void printRhombus(int m) {
-//        for (int i = 0; i < m; ++i) {
-//            for (int j = 0; j < m; ++j) {
-//                if (j + i == m / 2 || i + j == m - 1 + m / 2 || j == i + (m / 2) || i == j + (m / 2)) {
-//                    System.out.print("*");
-//                } else {
-//                    System.out.print(" ");
-//                }
-//            }
-//            System.out.print("\n");
-//        }
-
-
-        printEquilateralTriangle(m);
-
-        for (int i = m - 1; i >= 1; --i) {
-            for (int j = 0; j < m - i; ++j) {
-                System.out.print("  ");
-            }
-
-            for (int k = 0; k < 2 * i - 1; ++k) {
-                System.out.print("* ");
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (j + i == m / 2 || i + j == m - 1 + m / 2 || j == i + (m / 2) || i == j + (m / 2)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
             System.out.print("\n");
         }
+
+
+
+//              BY CONDITION
+//        printEquilateralTriangle(m);
+//
+//        for (int i = m - 1; i >= 1; --i) {
+//            for (int j = 0; j < m - i; ++j) {
+//                System.out.print("  ");
+//            }
+//
+//            for (int k = 0; k < 2 * i - 1; ++k) {
+//                System.out.print("* ");
+//            }
+//            System.out.print("\n");
+//        }
     }
 }
