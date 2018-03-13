@@ -22,7 +22,7 @@ public class Sort {
         System.out.println("Fgter SortSequence: " + Arrays.toString(array2));
     }
 
-    /**
+    /*
      * By Condition
      */
     public static void bubbleSort(int[] arr) {
@@ -42,7 +42,7 @@ public class Sort {
     }
 
 
-    /**
+    /*
      * By Condition
      */
     public static void sortSequence(int[] arr) {
@@ -65,7 +65,7 @@ public class Sort {
         }
     }
 
-    /**
+    /*
      * Util method
      */
     public static void swap(int[] items, int left, int right) {
