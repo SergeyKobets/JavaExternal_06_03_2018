@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="449c5538-8510-4300-ac5d-aa56d3e949fc" name="Default" comment="Lessons">
+    <list default="true" id="449c5538-8510-4300-ac5d-aa56d3e949fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/lesson1/task3/READ_ME" afterPath="$PROJECT_DIR$/src/lessons/lesson1/task3/READ_ME" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/lesson1/task4/READ_ME" afterPath="$PROJECT_DIR$/src/lessons/lesson1/task4/READ_ME" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -310,7 +308,7 @@
       <updated>1520808284616</updated>
       <workItem from="1520808285945" duration="470000" />
       <workItem from="1520846085212" duration="1830000" />
-      <workItem from="1520871467865" duration="11246000" />
+      <workItem from="1520871467865" duration="11253000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1520871290009</created>
@@ -382,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520937308595</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lessons">
+      <created>1520943147521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520943147521</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13546000" />
+    <option name="totallyTimeSpent" value="13553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
