@@ -49,9 +49,9 @@ public class Sort {
         int len = arr.length - 1;
         int first = 0;
 
-        for (int last = len; last > 0 && first < last; --last) {
+        for (int last = len; last > 0; --last) {
             if (arr[last] > 0) {
-                while (first < len) {
+                while (first < last) {
                     if (arr[first] < 0) {
                         swap(arr, last, first);
                         ++first;
