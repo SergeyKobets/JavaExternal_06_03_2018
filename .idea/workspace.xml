@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449c5538-8510-4300-ac5d-aa56d3e949fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/RandomShapeGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Shape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Triangle.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExternal_06_03_2018/lessons/lesson1/task1/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExternal_06_03_2018/lessons/lesson1/task2/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExternal_06_03_2018/lessons/lesson1/task3/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExternal_06_03_2018/lessons/lesson1/task4/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaExternal_06_03_2018/lessons/lesson2/task1/READ_ME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lessons/lesson2/task1/READ_ME" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +84,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -381,7 +370,7 @@
       <workItem from="1520846085212" duration="1830000" />
       <workItem from="1520871467865" duration="12431000" />
       <workItem from="1520974167325" duration="833000" />
-      <workItem from="1521038073075" duration="430000" />
+      <workItem from="1521038073075" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1520871290009</created>
@@ -467,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520975973627</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Homework">
+      <created>1521038567026</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521038567026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15994000" />
+    <option name="totallyTimeSpent" value="16505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -542,7 +538,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Lessons" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,7 +551,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -748,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
