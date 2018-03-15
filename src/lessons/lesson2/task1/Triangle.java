@@ -26,7 +26,7 @@ public class Triangle extends Shape {
                 isRectangule();
             }
         } else {
-            type = "Wrong coonrdinates ";
+            type = "Wrong coonrdinates for ";
         }
 
     }
@@ -61,17 +61,14 @@ public class Triangle extends Shape {
 
 
     //checking rectangle
-    public boolean isRectangule() {
-        boolean flag = false;
+    public void isRectangule() {
         double a = lineAB.constructSegmentTwoPoints();
         double b = lineBC.constructSegmentTwoPoints();
         double c = lineCA.constructSegmentTwoPoints();
         double[] array = sortAscending(a, b, c);
         if (Math.round(Math.pow(array[2], 2)) == Math.round(Math.pow(array[1], 2) + Math.pow(array[0], 2))) {
-            flag = true;
             type = "Rectangle ";
         }
-        return flag;
     }
 
 
