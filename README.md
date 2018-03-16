@@ -1,5 +1,5 @@
 # src/lessons/
-####**lesson1:**
+####lesson1:
 1. task1: Используя циклы и метод:
 System.out.print("* "), System.out.print("  "),
 System.out.print("\n")
