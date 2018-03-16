@@ -1,5 +1,6 @@
-# src/lessons/lesson1/
-task1: Используя циклы и метод:
+# src/lessons/
+lesson1:
+1. task1: Используя циклы и метод:
 System.out.print("* "), System.out.print("  "),
 System.out.print("\n")
 (для перехода на новую строку).
