@@ -1,6 +1,6 @@
 package lessons.lesson4.model;
 
-import lessons.lesson4.Abilities.IFly;
+import lessons.lesson4.abilities.IFly;
 
 public class Plane extends Vehicle implements IFly {
     private int height;
@@ -28,7 +28,7 @@ public class Plane extends Vehicle implements IFly {
     }
 
     @Override
-    public void fly() {
-        System.out.println("PLANE fly");
+    public String fly() {
+        return getType() + " летит со скоростью: " + getSpeed() * 5;
     }
 }

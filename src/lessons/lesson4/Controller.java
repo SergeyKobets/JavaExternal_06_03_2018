@@ -1,10 +1,12 @@
 package lessons.lesson4;
 
-import lessons.lesson4.*;
+import lessons.lesson4.abilities.IFly;
+import lessons.lesson4.abilities.IMove;
+import lessons.lesson4.abilities.ISwim;
 import lessons.lesson4.model.*;
 
 public class Controller {
-    public void execute(Vehicle[] vehicles) {
+    public void executeSelection(Vehicle[] vehicles) {
         int req = ConsoleHelper.askOperation();
         switch (req) {
             case 1:
@@ -17,12 +19,6 @@ public class Controller {
                 findCar(vehicles);
                 break;
             case 4:
-                findShip(vehicles);
-                break;
-            case 5:
-                findHighPrice(vehicles);
-                findByYear(vehicles);
-                findCar(vehicles);
                 findShip(vehicles);
                 break;
             default:
@@ -119,4 +115,41 @@ public class Controller {
                 }
             }
     }
+
+
+    public void canSwim(Vehicle[] vehicles) {
+        ISwim[] swimAble = new ISwim[vehicles.length];
+        for (int i = 0, j = 0; i < vehicles.length; ++i){
+            if (vehicles[i] instanceof ISwim) {
+                swimAble[j++] = (ISwim) vehicles[i];
+            }
+        }
+
+        ConsoleHelper.printCanSwim(swimAble);
+
+    }
+
+    public void canFly(Vehicle[] vehicles) {
+        IFly[] flyAble = new IFly[vehicles.length];
+        for (int i = 0, j = 0; i < vehicles.length; ++i){
+            if (vehicles[i] instanceof IFly) {
+                flyAble[j++] = (IFly) vehicles[i];
+            }
+        }
+
+        ConsoleHelper.printCanFly(flyAble);
+    }
+
+    public void canMove(Vehicle[] vehicles) {
+        IMove[] moveAble = new IMove[vehicles.length];
+        for (int i = 0, j = 0; i < vehicles.length; ++i){
+            if (vehicles[i] instanceof IMove) {
+                moveAble[j++] = (IMove) vehicles[i];
+            }
+        }
+
+        ConsoleHelper.printCanMove(moveAble);
+
+    }
+
 }

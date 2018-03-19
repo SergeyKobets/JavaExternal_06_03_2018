@@ -1,6 +1,6 @@
 package lessons.lesson4.model;
 
-import lessons.lesson4.Abilities.ISwim;
+import lessons.lesson4.abilities.ISwim;
 
 public class Ship extends Vehicle implements ISwim {
     private String portDestination;
@@ -16,11 +16,11 @@ public class Ship extends Vehicle implements ISwim {
     public String toString() {
         return super.toString() +
                 ", numberOfPassengers=" + numberOfPassengers +
-                ", portDestination=" + portDestination;
+                ", portDestination: " + portDestination;
     }
 
     @Override
-    public void swim() {
-        System.out.println("SHIP swim");
+    public String swim() {
+        return getType() + " плывет со скоростью: " + getSpeed();
     }
 }

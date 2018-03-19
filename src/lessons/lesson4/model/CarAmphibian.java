@@ -1,7 +1,7 @@
 package lessons.lesson4.model;
 
-import lessons.lesson4.Abilities.IMove;
-import lessons.lesson4.Abilities.ISwim;
+import lessons.lesson4.abilities.IMove;
+import lessons.lesson4.abilities.ISwim;
 
 public class CarAmphibian extends Car implements ISwim, IMove {
     public CarAmphibian(int price, int year, int speed, int x, int y) {
@@ -9,12 +9,12 @@ public class CarAmphibian extends Car implements ISwim, IMove {
     }
 
     @Override
-    public void swim() {
-        System.out.println("CAR AMPHIBIAN swim");
+    public String swim() {
+        return getType() + " плывет со скоростью: " + getSpeed() * 2;
     }
 
     @Override
-    public void move() {
-        System.out.println("CAR AMPHIBIAN move");
+    public String move() {
+        return getType() + " едет со скоростью: " + getSpeed() * 2;
     }
 }

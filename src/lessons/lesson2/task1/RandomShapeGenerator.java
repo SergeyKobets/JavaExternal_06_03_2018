@@ -3,7 +3,7 @@ package lessons.lesson2.task1;
 import java.util.Random;
 
 public class RandomShapeGenerator {
-    private Random rand = new Random(System.currentTimeMillis());
+    private static Random rand = new Random(System.currentTimeMillis());
 
     public Shape next() {
         switch (rand.nextInt(3)) {
@@ -19,7 +19,6 @@ public class RandomShapeGenerator {
                 return new Triangle(p1, p2, p3);
         }
     }
-
 
     private int nextNumber() {
         return (int) (Math.random() * 10);

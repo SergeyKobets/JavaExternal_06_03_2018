@@ -1,7 +1,7 @@
 package lessons.lesson4.model;
 
-import lessons.lesson4.Abilities.IFly;
-import lessons.lesson4.Abilities.ISwim;
+import lessons.lesson4.abilities.IFly;
+import lessons.lesson4.abilities.ISwim;
 
 public class Batmobile extends Car implements IFly, ISwim {
     public Batmobile(int price, int year, int speed, int x, int y) {
@@ -9,17 +9,17 @@ public class Batmobile extends Car implements IFly, ISwim {
     }
 
     @Override
-    public void fly() {
-        System.out.println("BATMOBILE fly");
+    public String fly() {
+        return getType() + " летит со скоростью: " + getSpeed() * 5;
     }
 
     @Override
-    public void move() {
-        System.out.println("BATMOBILE move");
+    public String move() {
+        return getType() + " едет со скоростью: " + getSpeed();
     }
 
     @Override
-    public void swim() {
-        System.out.println("BATMOBILE swim");
+    public String swim() {
+        return getType() + " плывет со скоростью: " + getSpeed() * 2;
     }
 }

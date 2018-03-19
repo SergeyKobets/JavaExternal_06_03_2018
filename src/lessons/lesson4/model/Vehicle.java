@@ -2,6 +2,7 @@ package lessons.lesson4.model;
 
 public abstract class Vehicle {
     private String type;
+    private String abilities;
     private int price;
     private int year;
     private int speed;
@@ -25,6 +26,10 @@ public abstract class Vehicle {
         coordinat.checkCoordinat(x, y);
     }
 
+    public void setAbilities(String abilities) {
+        this.abilities = abilities;
+    }
+
     public int getPrice() {
         return price;
     }
@@ -33,9 +38,18 @@ public abstract class Vehicle {
         return year;
     }
 
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
     public int getSpeed() {
         return speed;
     }
+
+    public String getType() {
+        return type;
+    }
+
 
     @Override
     public String toString() {

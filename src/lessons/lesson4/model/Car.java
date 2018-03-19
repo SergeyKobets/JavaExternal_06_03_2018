@@ -1,6 +1,6 @@
 package lessons.lesson4.model;
 
-import lessons.lesson4.Abilities.IMove;
+import lessons.lesson4.abilities.IMove;
 
 public class Car extends Vehicle implements IMove {
 
@@ -13,7 +13,7 @@ public class Car extends Vehicle implements IMove {
     }
 
     @Override
-    public void move() {
-        System.out.println("CAR move");
+    public String move() {
+        return getType() + " едет со скоростью: " + getSpeed();
     }
 }
