@@ -1,6 +1,6 @@
 package lessons.lesson4.model;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Comparable <Vehicle> {
     private String type;
     private String abilities;
     private int price;
@@ -50,6 +50,10 @@ public abstract class Vehicle {
         return type;
     }
 
+    @Override
+    public int compareTo(Vehicle o) {
+            return this.speed - o.speed;
+    }
 
     @Override
     public String toString() {

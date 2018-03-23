@@ -5,6 +5,8 @@ import lessons.lesson4.abilities.IMove;
 import lessons.lesson4.abilities.ISwim;
 import lessons.lesson4.model.*;
 
+import java.util.Arrays;
+
 public class Controller {
     public void executeSelection(Vehicle[] vehicles) {
         int req = ConsoleHelper.askOperation();
@@ -119,36 +121,60 @@ public class Controller {
 
     public void canSwim(Vehicle[] vehicles) {
         ISwim[] swimAble = new ISwim[vehicles.length];
+        int count = 0;
         for (int i = 0, j = 0; i < vehicles.length; ++i){
             if (vehicles[i] instanceof ISwim) {
                 swimAble[j++] = (ISwim) vehicles[i];
+                count++;
             }
         }
 
-        ConsoleHelper.printCanSwim(swimAble);
+        ISwim[] swims = new ISwim[count];
+        for (int i = 0; i < count; ++i) {
+            swims[i] = swimAble[i];
+        }
+
+        Arrays.sort(swims);
+        ConsoleHelper.printCanSwim(swims);
 
     }
 
     public void canFly(Vehicle[] vehicles) {
         IFly[] flyAble = new IFly[vehicles.length];
+        int count = 0;
         for (int i = 0, j = 0; i < vehicles.length; ++i){
             if (vehicles[i] instanceof IFly) {
                 flyAble[j++] = (IFly) vehicles[i];
+                count++;
             }
         }
 
-        ConsoleHelper.printCanFly(flyAble);
+        IFly[] flies = new IFly[count];
+        for (int i = 0; i < count; ++i) {
+            flies[i] = flyAble[i];
+        }
+
+        Arrays.sort(flies);
+        ConsoleHelper.printCanFly(flies);
     }
 
     public void canMove(Vehicle[] vehicles) {
         IMove[] moveAble = new IMove[vehicles.length];
+        int count = 0;
         for (int i = 0, j = 0; i < vehicles.length; ++i){
             if (vehicles[i] instanceof IMove) {
                 moveAble[j++] = (IMove) vehicles[i];
+                count++;
             }
         }
 
-        ConsoleHelper.printCanMove(moveAble);
+        IMove[] moves = new IMove[count];
+        for (int i = 0; i < count; ++i) {
+            moves[i] = moveAble[i];
+        }
+
+        Arrays.sort(moves);
+        ConsoleHelper.printCanMove(moves);
 
     }
 

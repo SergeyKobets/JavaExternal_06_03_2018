@@ -4,7 +4,7 @@ import lessons.lesson4.model.*;
 
 import java.util.Random;
 
-public class UnrealVehicleFactory extends AbstractVehicleFactory {
+public class VehicleFactory extends AbstractVehicleFactory {
     private int price, year, speed, passengers ,x, y;
     private Random rand = new Random(System.currentTimeMillis());
 
@@ -43,7 +43,7 @@ public class UnrealVehicleFactory extends AbstractVehicleFactory {
                 return new Plane(price, year, speed, x, y, 8000 ,passengers);
             case 4:
                 price = nextNum(1000);
-                year = nextNum(2018);
+                year = 2015;
                 speed = nextNum(2000);
                 x = nextNum(100);
                 y = nextNum(100);
