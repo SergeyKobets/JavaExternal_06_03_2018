@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449c5538-8510-4300-ac5d-aa56d3e949fc" name="Default" comment="Homework">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson5/Ship.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lessons/lesson5/Vehicle.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson2/task2/Polygon.java" afterPath="$PROJECT_DIR$/src/lessons/lesson2/task2/Polygon.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/ConsoleHelper.java" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/Controller.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/Controller.java" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/Main.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/Main.java" />
@@ -14,11 +14,12 @@
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/model/Plane.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/model/Plane.java" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/model/Ship.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/model/Ship.java" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson3/model/Vehicle.java" afterPath="$PROJECT_DIR$/src/lessons/lesson3/model/Vehicle.java" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/ConsoleHelper.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/ConsoleHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/Controller.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/Main.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/factories/RealVehicleFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/factories/UnrealVehicleFactory.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/Car.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/Car.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java" afterPath="$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,45 +32,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Batmobile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
               <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1605#1606#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IFly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/IFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMove.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/IMove.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISwim.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/ISwim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,30 +115,32 @@
         <option value="$PROJECT_DIR$/src/lessons/lesson3/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson3/Main.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson3/model/Plane.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/lessons/lesson3/Controller.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/Abilities/IFly.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/Abilities/IMove.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/Abilities/ISwim.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/factories/RealVehicleFactory.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson2/task1/RandomShapeGenerator.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/factories/UnrealVehicleFactory.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/factories/AbstractVehicleFactory.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Car.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/Controller.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson2/task2/Polygon.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson2/task1/Main.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/Main.java" />
-        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/abilities/IFly.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/abilities/IMove.java" />
         <option value="$PROJECT_DIR$/src/lessons/lesson4/abilities/ISwim.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Car.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson5/Ship.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson5/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -211,6 +208,13 @@
               <item name="lessons" type="462c0819:PsiDirectoryNode" />
               <item name="lesson4" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaExternal_06_03_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaExternal_06_03_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +403,7 @@
       <workItem from="1521497464032" duration="657000" />
       <workItem from="1521531427341" duration="2778000" />
       <workItem from="1521547834314" duration="1714000" />
-      <workItem from="1521837124380" duration="184000" />
+      <workItem from="1521837124380" duration="4750000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1520871290009</created>
@@ -548,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521497739649</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Homework">
+      <created>1521837330142</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1521837330142</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47522000" />
+    <option name="totallyTimeSpent" value="52088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -560,6 +571,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -582,7 +594,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -641,8 +652,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson1/task4/READ_ME" />
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson1/task1/READ_ME" />
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson1/task3/READ_ME" />
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson2/task1/RandomSpaheGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson2/task2/Solution.java" />
@@ -746,13 +755,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model.java" />
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Coordinat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson3/model/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -802,16 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson3/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -821,26 +813,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Abilities/IPrint.java" />
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Abilities/Print.java" />
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/factories/RealVehicleFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson2/task1/RandomShapeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,22 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2625">
@@ -875,14 +836,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,42 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/ISwim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-          <folding>
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/IFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -958,10 +879,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/ISwim.java">
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/abilities/IFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Coordinat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/factories/VehicleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="90" lean-forward="false" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Batmobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/CarAmphibian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/model/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson5/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson5/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lessons/lesson4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

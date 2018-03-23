@@ -5,7 +5,8 @@ import lessons.lesson4.abilities.ISwim;
 
 public class Batmobile extends Car implements IFly, ISwim {
     public Batmobile(int price, int year, int speed, int x, int y) {
-        super("BetMobile", price, year, speed, x, y);
+        super("BetMobile", price, year, speed, x, y, "500391aa", "TURBO");
+
     }
 
     @Override

@@ -1,4 +1,4 @@
-package lessons.lesson4.model;
+package lessons.lesson5;
 
 import lessons.lesson4.ConsoleHelper;
 import lessons.lesson4.abilities.ISwim;

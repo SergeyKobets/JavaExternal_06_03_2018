@@ -55,4 +55,5 @@ public class VehicleFactory extends AbstractVehicleFactory {
     public int nextNum(int bound) {
         return rand.nextInt(bound);
     }
+
 }

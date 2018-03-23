@@ -5,7 +5,7 @@ import lessons.lesson4.abilities.ISwim;
 
 public class CarAmphibian extends Car implements ISwim, IMove {
     public CarAmphibian(int price, int year, int speed, int x, int y) {
-        super("Amphibian Car", price, year, speed, x, y);
+        super("Amphibian Car", price, year, speed, x, y, "AADD", "steam");
     }
 
     @Override

@@ -7,7 +7,7 @@ public class Plane extends Vehicle implements IFly {
     private int numberOfPassengers;
 
     public Plane(int price, int year, int speed, int x, int y, int height, int numberOfPassengers) {
-        super("Plane", price, year, speed, x, y);
+        super("Plane", price, year, speed, x, y, "EEH44", "TURBO");
         this.height = height;
         this.numberOfPassengers = numberOfPassengers;
     }
