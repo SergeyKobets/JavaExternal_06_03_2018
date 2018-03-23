@@ -45,7 +45,7 @@ System.out.print("\n")
 ---
 
 **lesson4:**
-1. Upgrade задания Lesson4:
+1. Upgrade задания Lesson3:
   - Добавить машину Амфибию, БетМобиль
   - Добавляем 3 интерфейса IFly, ISwim, Imove
   - Создать 3 последовательности  IFly, ISwim, Imove
