@@ -14,15 +14,13 @@ public class Ship extends Vehicle implements ISwim {
     }
 
     public static class LifeBoat {
-        private static int boatId;
 
         public LifeBoat() {
-            boatId++;
             ConsoleHelper.writeMessage("Boat ready");
         }
 
         public void swim() {
-            ConsoleHelper.writeMessage("Boat" + boatId + " swim");
+            ConsoleHelper.writeMessage("Boat is swimming");
         }
     }
 
