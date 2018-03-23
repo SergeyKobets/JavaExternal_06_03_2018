@@ -19,14 +19,21 @@ public abstract class Vehicle implements Comparable <Vehicle> {
         this.engine = new Engine(engineModel, engineType);
     }
 
+
     public int[] getCoordinat() {
         int x = coordinat.getX();
         int y = coordinat.getY();
         return new int[]{x, y};
+
     }
 
     public void setCoordinat(int x, int y) {
         coordinat.checkCoordinat(x, y);
+    }
+
+
+    public Engine getEngine() {
+        return engine;
     }
 
 
