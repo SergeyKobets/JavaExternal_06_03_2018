@@ -86,8 +86,21 @@ public class Triangle extends Shape {
         System.out.println(this);
     }
 
+//    @Override
+//    public String toString() {
+//        return getType() + "Triangle";
+//    }
+
+
     @Override
     public String toString() {
-        return getType() + "Triangle";
+        return "Triangle{" +
+                "  A=" + A +
+                ", B=" + B +
+                ", C=" + C +
+                ", lineAB=" + lineAB +
+                ", lineBC=" + lineBC +
+                ", lineCA=" + lineCA +
+                '}';
     }
 }

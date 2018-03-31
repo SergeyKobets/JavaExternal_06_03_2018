@@ -6,7 +6,6 @@ import lessons.lesson2.task1.Shape;
 import lessons.lesson2.task1.Triangle;
 import lessons.lesson2.task2.Polygon;
 
-import java.io.IOException;
 import java.io.InvalidObjectException;
 
 public class SerializeController {

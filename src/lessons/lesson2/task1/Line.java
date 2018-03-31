@@ -19,7 +19,7 @@ public class Line extends Shape {
 
     @Override
     public String toString() {
-        return "Length of the line: " + constructSegmentTwoPoints();
+        return "Length of the line: " + (int) constructSegmentTwoPoints();
     }
 
     @Override

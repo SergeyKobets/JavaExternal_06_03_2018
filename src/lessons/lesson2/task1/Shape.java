@@ -1,6 +1,8 @@
 package lessons.lesson2.task1;
 
-public abstract class Shape {
+import java.io.Serializable;
+
+public abstract class Shape implements Serializable {
 
     public abstract void draw();
 
