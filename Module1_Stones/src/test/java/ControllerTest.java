@@ -40,4 +40,9 @@ public class ControllerTest {
         Stone[] actual = controller.selectNotNullStones(stones);
         assertEquals(expect, actual.length);
     }
+
+    @Test
+    public void selectNecklaceStonesTest() {
+
+    }
 }
