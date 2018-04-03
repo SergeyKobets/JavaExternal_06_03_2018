@@ -3,9 +3,7 @@ import factory.RandomStoneFactory;
 import model.Gemstone;
 import model.Stone;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.Arrays;
 
 public class Controller {
@@ -20,13 +18,14 @@ public class Controller {
         }
     }
 
-    public void execute(Operation operation) throws WrongOperationException, IOException {
+    public void execute(Operation operation) throws WrongOperationException {
         switch (operation) {
             case SELECT:
                 selectNecklaceStones(stones);
                 break;
             case COUNT:
-                countWeihtAndCost(stones);
+                calculateWeight(stones);
+                calculateCost(stones);
                 break;
             case SORT:
                 sortStones(stones);
@@ -48,7 +47,7 @@ public class Controller {
         }
     }
 
-    public void selectNecklaceStones(Stone[] stones) {
+    public Stone[] selectNecklaceStones(Stone[] stones) {
         String currentType;
         String type = Gemstone.class.getName();
         Stone[] stoneForNeck = new Stone[stones.length];
@@ -65,34 +64,50 @@ public class Controller {
             }
         }
 
+        Stone[] resultListStones = selectNotNullStones(stoneForNeck);
+
         ConsoleHelper.printInfo(stoneForNeck);
+        return resultListStones;
     }
 
-    public void countWeihtAndCost(Stone[] stones) {
-        int allWeight = 0;
-        int allCost = 0;
+    public double calculateWeight(Stone[] stones) {
+        double weight = 0;
 
         for (Stone stone : stones) {
             if (stone != null) {
-                allCost += stone.getCost();
-                allWeight += stone.getWeight();
+                weight += stone.getWeight();
             }
         }
 
-        ConsoleHelper.writeMessage("Weight of all necklace stones is: " + allWeight);
-        ConsoleHelper.writeMessage("The cost of all necklace stones is: " + allCost);
+        ConsoleHelper.writeMessage("Weight of all necklace stones is: " + weight);
+        return weight;
+    }
+
+    public double calculateCost(Stone[] stones) {
+        double cost = 0;
+
+        for (Stone stone : stones) {
+            if (stone != null) {
+                cost += stone.getCost();
+            }
+        }
+
+        ConsoleHelper.writeMessage("The cost of all necklace stones is: " + cost);
+        return cost;
     }
 
 
-    public void sortStones(Stone[] stones) {
-        Stone[] stonesForSort = selectNotNullStones(stones);
+    public Stone[] sortStones(Stone[] stones) {
+        Stone[] sortedStones = selectNotNullStones(stones);
 
-        Arrays.sort(stonesForSort);
-        ConsoleHelper.printInfo(stonesForSort);
+        Arrays.sort(sortedStones);
+
+        ConsoleHelper.printInfo(sortedStones);
+        return sortedStones;
     }
 
 
-    public void findStonesForTransparency(Stone[] stones) {
+    public Stone[] findStonesForTransparency(Stone[] stones) {
         float minTransparency;
         float maxTransparency;
 
@@ -114,6 +129,7 @@ public class Controller {
 
 
         ConsoleHelper.printInfo(resultStones);
+        return resultStones;
     }
 
 
@@ -135,13 +151,21 @@ public class Controller {
         return result;
     }
 
-    private void executeSerialize(Stone[] stones) throws IOException {
-        FileOutputStream fileOutput = new FileOutputStream("/Users/admin/Desktop/stones.txt");
-        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutput);
+    private void executeSerialize(Stone[] stones) {
+        try (FileOutputStream fileOutput = new FileOutputStream("/Users/admin/Desktop/stones.txt");
+             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutput)) {
 
-        objectOutputStream.writeObject(stones);
+            objectOutputStream.writeObject(stones);
 
-        objectOutputStream.close();
+        } catch (FileNotFoundException e) {
+            System.err.println("Файл не может быть создан: " + e);
+        } catch (NotSerializableException e) {
+            System.err.println("Класс не поддерживает сериализацию: " + e);
+        } catch (IOException e) {
+            System.err.println(e);
+        }
+
+
     }
 
 }

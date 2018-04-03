@@ -13,8 +13,6 @@ public class Main {
                 controller.execute(operation);
             } catch (WrongOperationException e) {
                 ConsoleHelper.writeMessage("Введена неизвестная операция");
-            } catch (IOException e) {
-                e.printStackTrace();
             }
 
         } while (operation != Operation.EXIT);

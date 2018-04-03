@@ -17,44 +17,17 @@ public class Stone implements Comparable<Stone>, Serializable {
         this.transparency = transparency;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
 
     public double getWeight() {
         return weight;
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
     }
 
     public float getCost() {
         return cost;
     }
 
-    public void setCost(float cost) {
-        this.cost = cost;
-    }
-
     public float getTransparency() {
         return transparency;
-    }
-
-    public void setTransparency(float transparency) {
-        this.transparency = transparency;
     }
 
     public int compareTo(Stone o) {

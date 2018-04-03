@@ -49,10 +49,6 @@ public class ConsoleHelper {
     }
 
 
-    public static void printInfo(Stone stone) {
-
-    }
-
     public static void printInfo(Stone[] stones) {
         for (Stone stone : stones) {
             if (stone != null) {
