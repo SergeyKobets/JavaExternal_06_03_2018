@@ -5,6 +5,9 @@ import model.Stone;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
@@ -89,9 +92,28 @@ public class ControllerTest {
         assertTrue(Arrays.equals(actual, sortedStones));
     }
 
-    @Ignore
     @Test
     public void findStonesForTransparency() {
+        Stone[] stones = new Stone[3];
+        stones[0] = new Gemstone("Dia", 12.5, 500, 12);
+        stones[1] = new SemiPreciousStone("GGH", 23, 12, 8);
+        stones[2] = new SemiPreciousStone("AAD", 70, 300.5f, 13);
+
+        Stone[] selectedStone = new Stone[3];
+        selectedStone[0] = new Gemstone("Dia", 12.5, 500, 12);
+        selectedStone[1] = new SemiPreciousStone("GGH", 23, 12, 8);
+
+        Stone[] actual;
+        String  str = "7\n13";
+        InputStream stdin = System.in;
+        try {
+            System.setIn(new ByteArrayInputStream(str.getBytes()));
+            actual = controller.findStonesForTransparency(stones);
+        } finally {
+            System.setIn(stdin);
+        }
+
+        assertTrue(Arrays.equals(actual, selectedStone));
     }
 
     @Test
