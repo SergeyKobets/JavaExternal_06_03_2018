@@ -96,7 +96,7 @@ System.out.print("\n")
 
 ---
 
-#Lesson 13
+# Lesson 13
 1. Переделать News_Agency с dao
 2. log4j INFO ERROR
 3. info на консоль
