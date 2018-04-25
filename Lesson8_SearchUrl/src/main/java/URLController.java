@@ -16,7 +16,7 @@ public class URLController {
                     + "[\\p{Alnum}.,%_=?&#\\-+()\\[\\]\\*$~@!:/{};]*)";
 
 
-    public static String getContentFromUrl(String stringUrl) {
+    public static String getContentFromUrl(String stringUrl) throws IOException {
         StringBuilder sb = new StringBuilder();
         URL url = null;
         try {
@@ -29,8 +29,7 @@ public class URLController {
             }
         } catch (MalformedURLException e) {
             System.err.println("Wrong URL");
-        } catch (IOException e) {
-            e.printStackTrace();
+            throw new IOException();
         }
 
         return sb.toString();
@@ -50,7 +49,7 @@ public class URLController {
     }
 
 
-    public static Map<Integer, String> getWordsFromUrl(Set<String> setUrls, String wordToSearch) {
+    public static Map<Integer, String> getWordsFromUrl(Set<String> setUrls, String wordToSearch) throws IOException {
         Pattern pattern = Pattern.compile(wordToSearch);
         Map<Integer, String> resultMap = new TreeMap<>(Collections.reverseOrder());
         for (String url : setUrls) {

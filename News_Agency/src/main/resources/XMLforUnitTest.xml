@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<categories>
+    <category name="Sport">
+        <news id="1">newsSport1</news>
+        <news id="2">newsSport2</news>
+        <news id="3">newsSport3</news>
+        <news id="4">newsSport3</news>
+    </category>
+    <category id="2" name="City">
+        <news id="1">newsCity1</news>
+        <news id="2">newsCity2</news>
+        <news id="3">newsCity3</news>
+    </category>
+    <category id="3" name="Run">
+        <news id="1">newsRUN</news>
+        <news id="2">newsRUN2</news>
+        <news id="3">newsRUN3</news>
+    </category>
+    <category id="4" name="Economy">
+        <news id="1">newsEconomy1</news>
+        <news id="2">newsEconomy2</news>
+        <news id="3">newsEconomy3</news>
+    </category>
+    <category id="4" name="Disco">
+        <news id="1">disco1</news>
+        <news id="2">disco2</news>
+        <news id="3">disco3</news>
+        <news id="4">disco4</news>
+        <news id="5">disco5</news>
+        <news id="6">disco6</news>
+    </category>
+</categories>

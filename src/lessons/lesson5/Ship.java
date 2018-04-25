@@ -3,6 +3,11 @@ package lessons.lesson5;
 import lessons.lesson4.ConsoleHelper;
 import lessons.lesson4.abilities.ISwim;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Ship extends Vehicle implements ISwim {
     private String portDestination;
     private int numberOfPassengers;
@@ -35,4 +40,5 @@ public class Ship extends Vehicle implements ISwim {
     public String swim() {
         return getType() + " плывет со скоростью: " + getSpeed();
     }
+
 }

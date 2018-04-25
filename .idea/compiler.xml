@@ -16,11 +16,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Lesson7_RPN" />
+        <module name="Lesson8_SearchUrl" />
         <module name="Module1_Stones" />
+        <module name="Module2_StringParser" />
+        <module name="Multithreading" />
+        <module name="News_Agency" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Module1_Stones" target="1.6" />
+      <module name="DatabaseNews" target="1.8" />
+      <module name="Lesson7_RPN" target="1.7" />
+      <module name="Lesson8" target="1.5" />
+      <module name="Lesson8_SearchUrl" target="1.8" />
+      <module name="Module1_Stones" target="1.7" />
+      <module name="Module2_StringParser" target="1.8" />
+      <module name="Multithreading" target="1.8" />
+      <module name="News_Agency" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
