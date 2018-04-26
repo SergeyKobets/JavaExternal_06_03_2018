@@ -29,15 +29,15 @@ public class Main {
         controller.setXmlView(xmlView);
 //
 //
-        categoriesView.fireEventCategoryDeleted("Run");
- //       newsView.fireEventShowAllNews();
+       categoriesView.fireEventShowCategory("Games");
+       newsView.fireEventShowAllNews();
 
 
 //        String type = "dom";
-//        String filePath = "/Users/admin/Desktop/testXML.xml";
+//        String filePath = "/Users/admin/Desktop/load.xml";
 //        List<Category> categoriesListFromXml = CategoryBuilderFactory.parse(type, filePath);
-//        //xmlView.fireEventCategoriesAdded(categoriesListFromXml);
-//        xmlView.fireEventWriteNewsToXml("/Users/admin/Desktop/endTest.xml");
+//        xmlView.fireEventCategoriesAdded(categoriesListFromXml);
+       // xmlView.fireEventWriteNewsToXml("/Users/admin/Desktop/endTest.xml");
 
 
     }

@@ -5,10 +5,7 @@ import bean.News;
 import exception.WrongValueException;
 import org.apache.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,40 +15,49 @@ public class CategoryDao extends AbstractDao {
     private PreparedStatement statement = null;
 
     /**
-     * @param name
+     *
+     * @param categoryName
      * @return
+     * @throws WrongValueException
      */
-    public Category getCategoryByName(String name) throws WrongValueException {
+    public Category getCategoryByName(String categoryName) throws WrongValueException {
 
-        logger.info(name);
-
-        String sql = "SELECT * FROM Categories WHERE name = ?";
-        String sql_news =   "SELECT * FROM News WHERE CategoryID = ?";
+        String sqlAllFromNews = "SELECT * FROM News WHERE CategoryID = ?";
         Connection connection = getConnection();
+        Category category = null;
+        Savepoint saveCategory = null;
+
         try {
-            statement = connection.prepareStatement(sql);
-            statement.setString(1, name);
+            connection.setAutoCommit(false);
+            int categoryID = getIdFromCategory(connection, categoryName);
+            category = new Category(categoryID, categoryName);
 
-            ResultSet resultSet = statement.executeQuery();
-            resultSet.next();
-            int categoryID = resultSet.getInt(1);
-            String categoryName = resultSet.getString(2);
-            Category category = new Category(categoryID, categoryName);
+            saveCategory = connection.setSavepoint("save category");
 
-            statement = connection.prepareStatement(sql_news);
+            statement = connection.prepareStatement(sqlAllFromNews);
             statement.setInt(1, categoryID);
-            ResultSet rs = statement.executeQuery();
-            while (rs.next()) {
-                int newsId = rs.getInt(1);
-                String newsName = rs.getString(2);
-                category.add(new News(newsId, newsName));
+            ResultSet newsSet = statement.executeQuery();
+            while (newsSet.next()) {
+                int newsID = newsSet.getInt("sss");
+                String context = newsSet.getString("context");
+                category.add(new News(newsID, context));
             }
 
-            logger.info(String.format("Get category %s", name));
+            connection.commit();
             stop(connection);
+            logger.info(String.format("Get category '%s'", categoryName.toUpperCase()));
+
             return category;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.printf("ОШИБКА при получении списка новостей из категории '%s'", categoryName);
+            if (saveCategory != null) {
+                try {
+                    connection.rollback();
+                    logger.info("JDBC Transaction rolled back successfully and save category " + category.getName());
+                } catch (SQLException e1) {
+                    logger.error(e1);
+                }
+            }
             logger.error(e);
             throw new WrongValueException();
         }
@@ -154,7 +160,6 @@ public class CategoryDao extends AbstractDao {
                 logger.info("JDBC Transaction rolled back successfully");
             } catch (SQLException e1) {
                 logger.error(e1);
-                e1.printStackTrace();
             }
             logger.error(e);
             logger.info("Rollback remove category");
@@ -208,6 +213,25 @@ public class CategoryDao extends AbstractDao {
             logger.info("Удалены новости категории " + name);
         } catch (SQLException e) {
             logger.error("Ошибка при удалении новостей из категории " + name);
+        }
+    }
+
+    private int getIdFromCategory(Connection connection, String name) {
+        String sqlIdFromCategory = "SELECT ID FROM Categories WHERE name = ?";
+
+        try {
+            statement = connection.prepareStatement(sqlIdFromCategory);
+            statement.setString(1, name);
+            ResultSet rs = statement.executeQuery();
+            rs.next();
+            int categoryID = rs.getInt(1);
+
+            logger.info("getID category " + name);
+            return categoryID;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            logger.error(e);
+            throw new WrongValueException();
         }
     }
 }

@@ -5,10 +5,7 @@ import bean.News;
 import exception.WrongValueException;
 import org.apache.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -120,33 +117,43 @@ public class NewsDao extends AbstractDao {
      * getNewsFromCategory
      */
     public Category getNewsFromCategory(String categoryName) {
-        String sqlIdFromCategory = "SELECT ID FROM Categories WHERE name = ?";
+
         String sqlAllFromNews = "SELECT * FROM News WHERE CategoryID = ?";
         Connection connection = getConnection();
+        Category category;
+        Savepoint saveCategory = null;
+
         try {
-            statement = connection.prepareStatement(sqlIdFromCategory);
-            statement.setString(1, categoryName);
-            ResultSet rs = statement.executeQuery();
-            rs.next();
-            int categoryID = rs.getInt(1);
-            Category category = new Category(categoryID, categoryName);
+            connection.setAutoCommit(false);
+            int categoryID = getIdFromCategory(connection, categoryName);
+            category = new Category(categoryID, categoryName);
+
+            saveCategory = connection.setSavepoint("save category");
 
             statement = connection.prepareStatement(sqlAllFromNews);
             statement.setInt(1, categoryID);
             ResultSet newsSet = statement.executeQuery();
             while (newsSet.next()) {
-                int newsID = newsSet.getInt("ID");
+                int newsID = newsSet.getInt("sss");
                 String context = newsSet.getString("context");
                 category.add(new News(newsID, context));
             }
 
+            connection.commit();
             stop(connection);
             logger.info(String.format("Get news from category '%s'", categoryName.toUpperCase()));
 
             return category;
         } catch (SQLException e) {
-            System.out.printf(
-                    "ОШИБКА при получении списка новостей из категории '%s'", categoryName);
+            System.out.printf("ОШИБКА при получении списка новостей из категории '%s'", categoryName);
+            if (saveCategory != null) {
+                try {
+                    connection.rollback();
+                    logger.info("JDBC Transaction rolled back successfully and save category");
+                } catch (SQLException e1) {
+                    logger.error(e1);
+                }
+            }
             logger.error(e);
             throw new WrongValueException();
         }
@@ -176,6 +183,26 @@ public class NewsDao extends AbstractDao {
         } catch (SQLException e) {
             System.out.println("Ошибка при обновлении новости");
             logger.error(e);
+        }
+    }
+
+
+    private int getIdFromCategory(Connection connection, String name) {
+        String sqlIdFromCategory = "SELECT ID FROM Categories WHERE name = ?";
+
+        try {
+            statement = connection.prepareStatement(sqlIdFromCategory);
+            statement.setString(1, name);
+            ResultSet rs = statement.executeQuery();
+            rs.next();
+            int categoryID = rs.getInt(1);
+
+            logger.info("getID from category " + name);
+            return categoryID;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            logger.error(e);
+            throw new WrongValueException();
         }
     }
 }
