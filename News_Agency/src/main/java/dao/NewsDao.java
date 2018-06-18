@@ -78,7 +78,8 @@ public class NewsDao extends AbstractDao {
      * getNews
      */
     public List<Category> getAllNews() {
-        String sqlNews = "SELECT * FROM News WHERE CategoryID = ?";
+        String sqlNews = "SELECT News.* FROM Categories INNER JOIN News ON Categories.ID = News.CategoryID " +
+                "WHERE Categories.ID = ?";
         String sqlCategory = "SELECT * FROM Categories";
         Connection connection = getConnection();
 

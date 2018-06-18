@@ -1,33 +1,35 @@
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
+import java.util.concurrent.Phaser;
 
 public class Main {
+
     public static void main(String[] args) {
-        List<Cashier> cashiers = new LinkedList<>();
-        Queue<Customer> customers = new LinkedList<Customer>();
+        List<Character> cashiers = new ArrayList<>();
+        cashiers.add(new Cashier());
+        cashiers.add(new Cashier());
 
-        for (int i = 0; i < 3; i++) {
-            cashiers.add(new Cashier("Cashier " + Name.values()[i], customers));
-        }
+        start(cashiers);
+    }
 
-        for (int i = 0; i < 10; i++) {
-            synchronized (customers) {
-                customers.add(new Customer("Customer " + i, 1 + (int) (9 * Math.random())));
-                customers.notifyAll();
-            }
-        }
+    private static boolean isCashiersReady = false;
 
-        synchronized (customers) {
-            while (!customers.isEmpty()) {
-                try {
-                    customers.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+    private static void start(List<Character> cashiers) {
+        final Phaser phaser = new Phaser(cashiers.size());
+
+        for (final Character cashier : cashiers) {
+            final String member = cashier.toString();
+
+            new Thread(() -> {
+                System.out.println(member + " готовится к открытию ресторана");
+                phaser.arriveAndAwaitAdvance();
+                if (!isCashiersReady) {
+                    isCashiersReady = true;
+                    System.out.println("Ресторан готов обслуживать клиентов");
                 }
-            }
+                cashier.run();
+            }).start();
         }
-
-        System.out.println("All customers have been served");
+        phaser.arriveAndDeregister();
     }
 }

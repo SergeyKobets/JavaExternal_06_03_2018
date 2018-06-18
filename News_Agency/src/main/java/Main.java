@@ -30,7 +30,7 @@ public class Main {
 //
 //
        categoriesView.fireEventShowCategory("Games");
-       newsView.fireEventShowAllNews();
+//       newsView.fireEventShowAllNews();
 
 
 //        String type = "dom";

@@ -1,0 +1,847 @@
+14:12:16,203  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,253  INFO main CategoryDao:addCategory:72 - Added category Sport
+14:12:16,253  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,254  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,261  INFO main NewsDao:addNews:41 - News added
+14:12:16,261  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,261  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,265  INFO main NewsDao:addNews:41 - News added
+14:12:16,266  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,266  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,272  INFO main NewsDao:addNews:41 - News added
+14:12:16,272  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,272  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,276  INFO main NewsDao:addNews:41 - News added
+14:12:16,277  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,277  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,281  INFO main CategoryDao:addCategory:72 - Added category City
+14:12:16,282  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,282  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,285  INFO main NewsDao:addNews:41 - News added
+14:12:16,286  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,286  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,289  INFO main NewsDao:addNews:41 - News added
+14:12:16,289  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,289  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,294  INFO main NewsDao:addNews:41 - News added
+14:12:16,294  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,294  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,297  INFO main CategoryDao:addCategory:72 - Added category Run
+14:12:16,297  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,297  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,301  INFO main NewsDao:addNews:41 - News added
+14:12:16,301  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,301  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,304  INFO main NewsDao:addNews:41 - News added
+14:12:16,304  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,305  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,308  INFO main NewsDao:addNews:41 - News added
+14:12:16,308  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,308  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,312  INFO main CategoryDao:addCategory:72 - Added category Economy
+14:12:16,312  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,312  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,316  INFO main NewsDao:addNews:41 - News added
+14:12:16,316  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,316  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,320  INFO main NewsDao:addNews:41 - News added
+14:12:16,320  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,320  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,324  INFO main NewsDao:addNews:41 - News added
+14:12:16,324  INFO main AbstractDao:stop:20 - stopConnection()
+14:12:16,324  INFO main AbstractDao:getConnection:15 - getConnection()
+14:12:16,325  INFO main CategoryDao:getAllCategories:98 - Get all categories
+14:12:16,326  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,354  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,424  INFO main CategoryDao:addCategory:72 - Added category Sport
+14:14:20,424  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,425  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,435  INFO main NewsDao:addNews:41 - News added
+14:14:20,435  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,435  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,440  INFO main NewsDao:addNews:41 - News added
+14:14:20,440  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,440  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,446  INFO main NewsDao:addNews:41 - News added
+14:14:20,447  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,447  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,450  INFO main NewsDao:addNews:41 - News added
+14:14:20,451  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,451  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,456  INFO main CategoryDao:addCategory:72 - Added category City
+14:14:20,457  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,457  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,461  INFO main NewsDao:addNews:41 - News added
+14:14:20,461  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,461  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,468  INFO main NewsDao:addNews:41 - News added
+14:14:20,469  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,469  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,488  INFO main NewsDao:addNews:41 - News added
+14:14:20,489  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,489  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,493  INFO main CategoryDao:addCategory:72 - Added category Run
+14:14:20,494  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,494  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,498  INFO main NewsDao:addNews:41 - News added
+14:14:20,498  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,498  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,510  INFO main NewsDao:addNews:41 - News added
+14:14:20,510  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,510  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,515  INFO main NewsDao:addNews:41 - News added
+14:14:20,516  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,516  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,521  INFO main CategoryDao:addCategory:72 - Added category Economy
+14:14:20,521  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,522  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,528  INFO main NewsDao:addNews:41 - News added
+14:14:20,528  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,528  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,533  INFO main NewsDao:addNews:41 - News added
+14:14:20,533  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,533  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,540  INFO main NewsDao:addNews:41 - News added
+14:14:20,540  INFO main AbstractDao:stop:20 - stopConnection()
+14:14:20,541  INFO main AbstractDao:getConnection:15 - getConnection()
+14:14:20,542  INFO main CategoryDao:getAllCategories:98 - Get all categories
+14:14:20,543  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,299  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,345  INFO main CategoryDao:addCategory:72 - Added category Sport
+14:36:41,346  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,347  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,353  INFO main NewsDao:addNews:41 - News added
+14:36:41,354  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,354  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,362  INFO main NewsDao:addNews:41 - News added
+14:36:41,363  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,363  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,373  INFO main NewsDao:addNews:41 - News added
+14:36:41,374  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,374  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,381  INFO main NewsDao:addNews:41 - News added
+14:36:41,381  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,381  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,390  INFO main CategoryDao:addCategory:72 - Added category City
+14:36:41,391  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,391  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,403  INFO main NewsDao:addNews:41 - News added
+14:36:41,403  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,404  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,413  INFO main NewsDao:addNews:41 - News added
+14:36:41,413  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,413  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,418  INFO main NewsDao:addNews:41 - News added
+14:36:41,418  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,418  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,420  INFO main CategoryDao:addCategory:72 - Added category Run
+14:36:41,421  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,421  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,425  INFO main NewsDao:addNews:41 - News added
+14:36:41,425  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,425  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,429  INFO main NewsDao:addNews:41 - News added
+14:36:41,429  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,429  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,433  INFO main NewsDao:addNews:41 - News added
+14:36:41,433  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,434  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,436  INFO main CategoryDao:addCategory:72 - Added category Economy
+14:36:41,437  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,437  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,444  INFO main NewsDao:addNews:41 - News added
+14:36:41,445  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,446  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,456  INFO main NewsDao:addNews:41 - News added
+14:36:41,456  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,456  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,465  INFO main NewsDao:addNews:41 - News added
+14:36:41,465  INFO main AbstractDao:stop:20 - stopConnection()
+14:36:41,465  INFO main AbstractDao:getConnection:15 - getConnection()
+14:36:41,468  INFO main CategoryDao:getAllCategories:98 - Get all categories
+14:36:41,468  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:11,921  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:11,988  INFO main CategoryDao:addCategory:80 - Added category Sport
+14:47:11,989  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:11,990  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:11,999  INFO main NewsDao:addNews:41 - News added
+14:47:11,999  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:11,999  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,005  INFO main NewsDao:addNews:41 - News added
+14:47:12,005  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,006  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,011  INFO main NewsDao:addNews:41 - News added
+14:47:12,011  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,011  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,019  INFO main NewsDao:addNews:41 - News added
+14:47:12,019  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,019  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,031  INFO main CategoryDao:addCategory:80 - Added category City
+14:47:12,032  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,032  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,036  INFO main NewsDao:addNews:41 - News added
+14:47:12,037  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,038  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,042  INFO main NewsDao:addNews:41 - News added
+14:47:12,043  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,043  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,048  INFO main NewsDao:addNews:41 - News added
+14:47:12,049  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,049  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,053  INFO main CategoryDao:addCategory:80 - Added category Run
+14:47:12,053  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,053  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,057  INFO main NewsDao:addNews:41 - News added
+14:47:12,057  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,057  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,062  INFO main NewsDao:addNews:41 - News added
+14:47:12,062  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,062  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,065  INFO main NewsDao:addNews:41 - News added
+14:47:12,065  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,070  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,080  INFO main CategoryDao:addCategory:80 - Added category Economy
+14:47:12,081  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,081  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,088  INFO main NewsDao:addNews:41 - News added
+14:47:12,093  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,094  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,100  INFO main NewsDao:addNews:41 - News added
+14:47:12,101  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,101  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,106  INFO main NewsDao:addNews:41 - News added
+14:47:12,106  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:12,106  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:12,109  INFO main CategoryDao:getAllCategories:106 - Get all categories
+14:47:12,110  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,292  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,347  INFO main CategoryDao:addCategory:80 - Added category Sport
+14:47:31,347  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,349  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,358  INFO main NewsDao:addNews:41 - News added
+14:47:31,358  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,359  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,371  INFO main NewsDao:addNews:41 - News added
+14:47:31,371  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,371  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,378  INFO main NewsDao:addNews:41 - News added
+14:47:31,379  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,379  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,384  INFO main NewsDao:addNews:41 - News added
+14:47:31,387  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,387  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,399  INFO main CategoryDao:addCategory:80 - Added category City
+14:47:31,399  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,399  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,404  INFO main NewsDao:addNews:41 - News added
+14:47:31,404  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,404  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,408  INFO main NewsDao:addNews:41 - News added
+14:47:31,410  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,411  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,415  INFO main NewsDao:addNews:41 - News added
+14:47:31,415  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,415  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,419  INFO main CategoryDao:addCategory:80 - Added category Run
+14:47:31,419  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,419  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,425  INFO main NewsDao:addNews:41 - News added
+14:47:31,426  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,426  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,430  INFO main NewsDao:addNews:41 - News added
+14:47:31,430  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,430  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,436  INFO main NewsDao:addNews:41 - News added
+14:47:31,437  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,437  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,438  INFO main CategoryDao:addCategory:80 - Added category Economy
+14:47:31,439  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,439  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,445  INFO main NewsDao:addNews:41 - News added
+14:47:31,445  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,445  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,449  INFO main NewsDao:addNews:41 - News added
+14:47:31,450  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,450  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,453  INFO main NewsDao:addNews:41 - News added
+14:47:31,453  INFO main AbstractDao:stop:20 - stopConnection()
+14:47:31,454  INFO main AbstractDao:getConnection:15 - getConnection()
+14:47:31,455  INFO main CategoryDao:getAllCategories:106 - Get all categories
+14:47:31,455  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,900  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,945  INFO main CategoryDao:addCategory:80 - Added category Sport
+14:48:03,945  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,947  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,951  INFO main NewsDao:addNews:41 - News added
+14:48:03,951  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,951  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,956  INFO main NewsDao:addNews:41 - News added
+14:48:03,957  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,957  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,966  INFO main NewsDao:addNews:41 - News added
+14:48:03,966  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,966  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,974  INFO main NewsDao:addNews:41 - News added
+14:48:03,974  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,974  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,978  INFO main CategoryDao:addCategory:80 - Added category City
+14:48:03,978  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,979  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,983  INFO main NewsDao:addNews:41 - News added
+14:48:03,983  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,984  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:03,987  INFO main NewsDao:addNews:41 - News added
+14:48:03,988  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:03,989  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,004  INFO main NewsDao:addNews:41 - News added
+14:48:04,004  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,004  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,006  INFO main CategoryDao:addCategory:80 - Added category Run
+14:48:04,006  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,007  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,011  INFO main NewsDao:addNews:41 - News added
+14:48:04,011  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,011  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,015  INFO main NewsDao:addNews:41 - News added
+14:48:04,015  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,015  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,020  INFO main NewsDao:addNews:41 - News added
+14:48:04,020  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,020  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,022  INFO main CategoryDao:addCategory:80 - Added category Economy
+14:48:04,022  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,022  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,028  INFO main NewsDao:addNews:41 - News added
+14:48:04,029  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,029  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,033  INFO main NewsDao:addNews:41 - News added
+14:48:04,033  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,033  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,037  INFO main NewsDao:addNews:41 - News added
+14:48:04,037  INFO main AbstractDao:stop:20 - stopConnection()
+14:48:04,037  INFO main AbstractDao:getConnection:15 - getConnection()
+14:48:04,038  INFO main CategoryDao:getAllCategories:106 - Get all categories
+14:48:04,039  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,016  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,070  INFO main CategoryDao:addCategory:80 - Added category Sport
+14:49:32,070  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,071  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,078  INFO main NewsDao:addNews:41 - News added
+14:49:32,078  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,078  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,082  INFO main NewsDao:addNews:41 - News added
+14:49:32,082  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,082  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,086  INFO main NewsDao:addNews:41 - News added
+14:49:32,087  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,087  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,091  INFO main NewsDao:addNews:41 - News added
+14:49:32,092  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,092  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,096  INFO main CategoryDao:addCategory:80 - Added category City
+14:49:32,097  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,098  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,102  INFO main NewsDao:addNews:41 - News added
+14:49:32,102  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,102  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,107  INFO main NewsDao:addNews:41 - News added
+14:49:32,107  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,108  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,112  INFO main NewsDao:addNews:41 - News added
+14:49:32,112  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,112  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,116  INFO main CategoryDao:addCategory:80 - Added category Run
+14:49:32,116  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,116  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,120  INFO main NewsDao:addNews:41 - News added
+14:49:32,120  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,120  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,125  INFO main NewsDao:addNews:41 - News added
+14:49:32,125  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,125  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,128  INFO main NewsDao:addNews:41 - News added
+14:49:32,129  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,129  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,131  INFO main CategoryDao:addCategory:80 - Added category Economy
+14:49:32,131  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,131  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,140  INFO main NewsDao:addNews:41 - News added
+14:49:32,141  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,141  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,145  INFO main NewsDao:addNews:41 - News added
+14:49:32,145  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,145  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,149  INFO main NewsDao:addNews:41 - News added
+14:49:32,149  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,150  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,153  INFO main CategoryDao:addCategory:80 - Added category Disco
+14:49:32,153  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,154  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,159  INFO main NewsDao:addNews:41 - News added
+14:49:32,159  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,159  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,168  INFO main NewsDao:addNews:41 - News added
+14:49:32,168  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,168  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,172  INFO main NewsDao:addNews:41 - News added
+14:49:32,173  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,173  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,179  INFO main NewsDao:addNews:41 - News added
+14:49:32,179  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,179  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,187  INFO main NewsDao:addNews:41 - News added
+14:49:32,187  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,188  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,200  INFO main NewsDao:addNews:41 - News added
+14:49:32,200  INFO main AbstractDao:stop:20 - stopConnection()
+14:49:32,200  INFO main AbstractDao:getConnection:15 - getConnection()
+14:49:32,202  INFO main CategoryDao:getAllCategories:106 - Get all categories
+14:49:32,203  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,761  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,804  INFO main CategoryDao:addCategory:80 - Added category Sport
+16:43:14,805  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,806  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,812  INFO main NewsDao:addNews:41 - News added
+16:43:14,812  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,813  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,824  INFO main NewsDao:addNews:41 - News added
+16:43:14,824  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,825  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,829  INFO main NewsDao:addNews:41 - News added
+16:43:14,835  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,835  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,845  INFO main NewsDao:addNews:41 - News added
+16:43:14,845  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,845  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,852  INFO main CategoryDao:addCategory:80 - Added category City
+16:43:14,853  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,855  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,859  INFO main NewsDao:addNews:41 - News added
+16:43:14,860  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,860  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,870  INFO main NewsDao:addNews:41 - News added
+16:43:14,870  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,870  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,878  INFO main NewsDao:addNews:41 - News added
+16:43:14,878  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,878  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,880  INFO main CategoryDao:addCategory:80 - Added category Run
+16:43:14,880  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,880  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,887  INFO main NewsDao:addNews:41 - News added
+16:43:14,889  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,889  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,892  INFO main NewsDao:addNews:41 - News added
+16:43:14,893  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,893  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,899  INFO main NewsDao:addNews:41 - News added
+16:43:14,900  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,900  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,902  INFO main CategoryDao:addCategory:80 - Added category Economy
+16:43:14,902  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,902  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,906  INFO main NewsDao:addNews:41 - News added
+16:43:14,906  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,906  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,910  INFO main NewsDao:addNews:41 - News added
+16:43:14,911  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,911  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,914  INFO main NewsDao:addNews:41 - News added
+16:43:14,915  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,915  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,918  INFO main CategoryDao:addCategory:80 - Added category Disco
+16:43:14,919  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,919  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,924  INFO main NewsDao:addNews:41 - News added
+16:43:14,925  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,925  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,929  INFO main NewsDao:addNews:41 - News added
+16:43:14,929  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,929  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,935  INFO main NewsDao:addNews:41 - News added
+16:43:14,935  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,935  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,938  INFO main NewsDao:addNews:41 - News added
+16:43:14,939  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,939  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,944  INFO main NewsDao:addNews:41 - News added
+16:43:14,944  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,952  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,961  INFO main NewsDao:addNews:41 - News added
+16:43:14,963  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:14,963  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:14,967  INFO main CategoryDao:getAllCategories:106 - Get all categories
+16:43:14,967  INFO main AbstractDao:stop:20 - stopConnection()
+17:15:40,090  INFO main AbstractDao:getConnection:15 - getConnection()
+17:15:40,123  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:15:40,124  INFO main AbstractDao:stop:20 - stopConnection()
+17:16:35,135  INFO main AbstractDao:getConnection:15 - getConnection()
+17:16:35,159  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:16:35,159  INFO main AbstractDao:stop:20 - stopConnection()
+17:16:51,710  INFO main AbstractDao:getConnection:15 - getConnection()
+17:16:51,736  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:16:51,736  INFO main AbstractDao:stop:20 - stopConnection()
+17:16:51,739  INFO main AbstractDao:getConnection:15 - getConnection()
+17:16:51,764  INFO main NewsDao:getAllNews:107 - Get all news
+17:16:51,764  INFO main AbstractDao:stop:20 - stopConnection()
+17:18:44,989  INFO main AbstractDao:getConnection:15 - getConnection()
+17:18:45,013  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:18:45,013  INFO main AbstractDao:stop:20 - stopConnection()
+17:21:04,545  INFO main AbstractDao:getConnection:15 - getConnection()
+17:21:04,582  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:21:04,582  INFO main AbstractDao:stop:20 - stopConnection()
+17:21:31,637  INFO main AbstractDao:getConnection:15 - getConnection()
+17:21:31,670  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:21:31,670  INFO main AbstractDao:stop:20 - stopConnection()
+17:22:00,789  INFO main AbstractDao:getConnection:15 - getConnection()
+17:22:00,828  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:22:00,828  INFO main AbstractDao:stop:20 - stopConnection()
+17:22:28,385  INFO main AbstractDao:getConnection:15 - getConnection()
+17:22:28,408  INFO main CategoryDao:getAllCategories:106 - Get all categories
+17:22:28,408  INFO main AbstractDao:stop:20 - stopConnection()
+17:27:18,897  INFO main AbstractDao:getConnection:15 - getConnection()
+17:27:18,952  INFO main NewsDao:getAllNews:107 - Get all news
+17:27:18,952  INFO main AbstractDao:stop:20 - stopConnection()
+18:25:42,413  INFO main AbstractDao:getConnection:15 - getConnection()
+18:25:42,474  INFO main NewsDao:getAllNews:107 - Get all news
+18:25:42,475  INFO main AbstractDao:stop:20 - stopConnection()
+23:51:12,797  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:51:13,434  INFO main CategoryDao:getCategoryByName:26 - 
+23:51:13,440  INFO main AbstractDao:getConnection:15 - getConnection()
+23:51:13,485 ERROR main CategoryDao:getCategoryByName:55 - java.sql.SQLException: Illegal operation on empty result set.
+23:53:06,535  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:53:07,160  INFO main CategoryDao:getCategoryByName:26 - 
+23:53:07,163  INFO main AbstractDao:getConnection:15 - getConnection()
+23:53:07,201 ERROR main CategoryDao:getCategoryByName:55 - java.sql.SQLException: Illegal operation on empty result set.
+23:53:22,705  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:53:23,252  INFO main CategoryDao:getCategoryByName:26 - 
+23:53:23,252  INFO main AbstractDao:getConnection:15 - getConnection()
+23:53:23,305 ERROR main CategoryDao:getCategoryByName:55 - java.sql.SQLException: Illegal operation on empty result set.
+23:53:49,511  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:53:50,144  INFO main CategoryDao:getCategoryByName:26 - a
+23:53:50,144  INFO main AbstractDao:getConnection:15 - getConnection()
+23:53:50,187 ERROR main CategoryDao:getCategoryByName:55 - java.sql.SQLException: Illegal operation on empty result set.
+23:54:04,103  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:54:04,684  INFO main CategoryDao:getCategoryByName:26 - a
+23:54:04,690  INFO main AbstractDao:getConnection:15 - getConnection()
+23:54:04,752 ERROR main CategoryDao:getCategoryByName:55 - java.sql.SQLException: Illegal operation on empty result set.
+23:57:32,325  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:57:32,932  INFO main AbstractDao:getConnection:15 - getConnection()
+23:57:32,976 ERROR main NewsDao:getNewsFromCategory:151 - java.sql.SQLException: Illegal operation on empty result set.
+23:57:32,985  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:57:33,049  INFO main AbstractDao:getConnection:15 - getConnection()
+23:57:33,067  INFO main NewsDao:getAllNews:108 - Get all news
+23:57:33,067  INFO main AbstractDao:stop:20 - stopConnection()
+23:57:45,333  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:57:45,861  INFO main AbstractDao:getConnection:15 - getConnection()
+23:57:45,894  INFO main NewsDao:getAllNews:108 - Get all news
+23:57:45,894  INFO main AbstractDao:stop:20 - stopConnection()
+23:58:12,932  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+23:58:13,489  INFO main AbstractDao:getConnection:15 - getConnection()
+23:58:13,526 ERROR main NewsDao:getNewsFromCategory:151 - java.sql.SQLException: Illegal operation on empty result set.
+16:07:48,649  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:07:49,489  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:07:49,554  INFO main AbstractDao:getConnection:15 - getConnection()
+16:07:49,594  INFO main NewsDao:getAllNews:108 - Get all news
+16:07:49,594  INFO main AbstractDao:stop:20 - stopConnection()
+16:10:05,867  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:10:06,689  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:10:07,299  INFO main AbstractDao:getConnection:15 - getConnection()
+16:10:07,351  INFO main NewsDao:getAllNews:108 - Get all news
+16:10:07,352  INFO main AbstractDao:stop:20 - stopConnection()
+18:43:03,925  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+18:43:04,705  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+18:43:04,774  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:04,776  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:04,837  INFO main CategoryDao:removeCategory:139 - Removed category 'City'
+18:43:04,838  INFO main AbstractDao:stop:20 - stopConnection()
+18:43:04,838  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:04,843  INFO main CategoryDao:getAllCategories:107 - Get all categories
+18:43:04,843  INFO main AbstractDao:stop:20 - stopConnection()
+18:43:40,868  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+18:43:41,662  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+18:43:41,718  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:41,719  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:41,761 ERROR main CategoryDao:deleteCategoryNews:202 - Ошибка при удалении новостей из категории City
+18:43:41,781  INFO main CategoryDao:removeCategory:143 - Category 'City' not found
+18:43:41,785  INFO main AbstractDao:stop:20 - stopConnection()
+18:43:41,787  INFO main AbstractDao:getConnection:15 - getConnection()
+18:43:41,792  INFO main CategoryDao:getAllCategories:107 - Get all categories
+18:43:41,793  INFO main AbstractDao:stop:20 - stopConnection()
+19:04:30,631  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:04:31,462  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:04:31,529  INFO main AbstractDao:getConnection:15 - getConnection()
+19:04:31,594  INFO main CategoryDao:removeCategory:140 - Removed category 'Disco'
+19:04:31,597  INFO main AbstractDao:stop:20 - stopConnection()
+19:04:31,597  INFO main AbstractDao:getConnection:15 - getConnection()
+19:04:31,600  INFO main CategoryDao:getAllCategories:107 - Get all categories
+19:04:31,600  INFO main AbstractDao:stop:20 - stopConnection()
+19:06:02,885  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:06:03,596  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:06:03,670  INFO main AbstractDao:getConnection:15 - getConnection()
+19:06:03,695  INFO main CategoryDao:deleteCategoryNews:207 - Удалены новости категории Run
+19:06:03,711  INFO main CategoryDao:removeCategory:140 - Removed category 'Run'
+19:06:03,713  INFO main AbstractDao:stop:20 - stopConnection()
+19:06:03,713  INFO main AbstractDao:getConnection:15 - getConnection()
+19:06:03,719  INFO main CategoryDao:getAllCategories:107 - Get all categories
+19:06:03,719  INFO main AbstractDao:stop:20 - stopConnection()
+19:07:20,439  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:07:21,033  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:07:34,397  INFO main AbstractDao:getConnection:15 - getConnection()
+19:07:34,434 ERROR main CategoryDao:deleteCategoryNews:210 - Ошибка при удалении новостей из категории Run
+19:07:34,450  INFO main CategoryDao:removeCategory:144 - Category 'Run' not found
+19:07:34,451  INFO main AbstractDao:stop:20 - stopConnection()
+19:07:34,451  INFO main AbstractDao:getConnection:15 - getConnection()
+19:07:34,455  INFO main CategoryDao:getAllCategories:107 - Get all categories
+19:07:34,455  INFO main AbstractDao:stop:20 - stopConnection()
+19:08:04,216  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:08:04,947  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+19:08:05,008  INFO main AbstractDao:getConnection:15 - getConnection()
+19:08:05,041 ERROR main CategoryDao:deleteCategoryNews:210 - Ошибка при удалении новостей из категории Run
+19:08:05,063  INFO main CategoryDao:removeCategory:144 - Category 'Run' not found
+19:08:05,064  INFO main AbstractDao:stop:20 - stopConnection()
+19:08:05,065  INFO main AbstractDao:getConnection:15 - getConnection()
+19:08:05,073  INFO main CategoryDao:getAllCategories:107 - Get all categories
+19:08:05,073  INFO main AbstractDao:stop:20 - stopConnection()
+16:06:24,364  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:06:25,198  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:06:25,680  INFO main AbstractDao:getConnection:15 - getConnection()
+16:06:25,721  INFO main NewsDao:getAllNews:107 - Get all news
+16:06:25,721  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:43,129  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:09:43,789  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:09:44,218  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,291  INFO main CategoryDao:addCategory:80 - Added category Sport
+16:09:44,291  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,291  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,308  INFO main NewsDao:addNews:41 - News added
+16:09:44,308  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,308  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,317  INFO main NewsDao:addNews:41 - News added
+16:09:44,318  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,318  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,324  INFO main NewsDao:addNews:41 - News added
+16:09:44,324  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,324  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,331  INFO main NewsDao:addNews:41 - News added
+16:09:44,332  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,333  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,339  INFO main NewsDao:addNews:41 - News added
+16:09:44,339  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,340  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,343  INFO main NewsDao:addNews:41 - News added
+16:09:44,344  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,344  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,351  INFO main NewsDao:addNews:41 - News added
+16:09:44,351  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,352  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,356  INFO main NewsDao:addNews:41 - News added
+16:09:44,356  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,357  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,360  INFO main NewsDao:addNews:41 - News added
+16:09:44,360  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,361  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,367  INFO main NewsDao:addNews:41 - News added
+16:09:44,368  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,368  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,375  INFO main NewsDao:addNews:41 - News added
+16:09:44,376  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,376  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,382  INFO main NewsDao:addNews:41 - News added
+16:09:44,383  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,383  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,390  INFO main NewsDao:addNews:41 - News added
+16:09:44,390  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,391  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,398  INFO main NewsDao:addNews:41 - News added
+16:09:44,398  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,398  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,402  INFO main NewsDao:addNews:41 - News added
+16:09:44,402  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,403  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,407  INFO main NewsDao:addNews:41 - News added
+16:09:44,407  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,408  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,413  INFO main NewsDao:addNews:41 - News added
+16:09:44,413  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,414  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,417  INFO main NewsDao:addNews:41 - News added
+16:09:44,417  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,418  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,423  INFO main NewsDao:addNews:41 - News added
+16:09:44,423  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,426  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,432  INFO main NewsDao:addNews:41 - News added
+16:09:44,432  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,432  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,434  INFO main CategoryDao:addCategory:80 - Added category Economy
+16:09:44,435  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,437  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,444  INFO main NewsDao:addNews:41 - News added
+16:09:44,444  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,444  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,452  INFO main NewsDao:addNews:41 - News added
+16:09:44,452  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,453  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,462  INFO main NewsDao:addNews:41 - News added
+16:09:44,462  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,463  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,468  INFO main NewsDao:addNews:41 - News added
+16:09:44,468  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,468  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,473  INFO main NewsDao:addNews:41 - News added
+16:09:44,473  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,473  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,478  INFO main NewsDao:addNews:41 - News added
+16:09:44,479  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,479  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,483  INFO main NewsDao:addNews:41 - News added
+16:09:44,483  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,483  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,486  INFO main NewsDao:addNews:41 - News added
+16:09:44,487  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,487  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,492  INFO main NewsDao:addNews:41 - News added
+16:09:44,492  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,493  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,496  INFO main NewsDao:addNews:41 - News added
+16:09:44,496  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,496  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,500  INFO main NewsDao:addNews:41 - News added
+16:09:44,500  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,500  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,504  INFO main NewsDao:addNews:41 - News added
+16:09:44,504  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,504  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,508  INFO main NewsDao:addNews:41 - News added
+16:09:44,508  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,508  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,515  INFO main NewsDao:addNews:41 - News added
+16:09:44,515  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,515  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,520  INFO main NewsDao:addNews:41 - News added
+16:09:44,520  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,520  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,527  INFO main CategoryDao:addCategory:80 - Added category Games
+16:09:44,527  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,527  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,531  INFO main NewsDao:addNews:41 - News added
+16:09:44,532  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,532  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,535  INFO main NewsDao:addNews:41 - News added
+16:09:44,535  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,535  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,539  INFO main NewsDao:addNews:41 - News added
+16:09:44,539  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,539  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,544  INFO main NewsDao:addNews:41 - News added
+16:09:44,544  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,545  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,548  INFO main NewsDao:addNews:41 - News added
+16:09:44,548  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,548  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,551  INFO main NewsDao:addNews:41 - News added
+16:09:44,551  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,552  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,557  INFO main NewsDao:addNews:41 - News added
+16:09:44,557  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,558  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,571  INFO main NewsDao:addNews:41 - News added
+16:09:44,571  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,572  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,576  INFO main NewsDao:addNews:41 - News added
+16:09:44,577  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,578  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,584  INFO main NewsDao:addNews:41 - News added
+16:09:44,584  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,584  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,590  INFO main NewsDao:addNews:41 - News added
+16:09:44,591  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,591  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,595  INFO main NewsDao:addNews:41 - News added
+16:09:44,595  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,595  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,598  INFO main NewsDao:addNews:41 - News added
+16:09:44,598  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,598  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,602  INFO main NewsDao:addNews:41 - News added
+16:09:44,602  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,602  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,607  INFO main NewsDao:addNews:41 - News added
+16:09:44,608  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,608  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,614  INFO main NewsDao:addNews:41 - News added
+16:09:44,614  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,614  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,619  INFO main NewsDao:addNews:41 - News added
+16:09:44,619  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,619  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,624  INFO main NewsDao:addNews:41 - News added
+16:09:44,625  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,625  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,629  INFO main NewsDao:addNews:41 - News added
+16:09:44,629  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,630  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,634  INFO main NewsDao:addNews:41 - News added
+16:09:44,635  INFO main AbstractDao:stop:20 - stopConnection()
+16:09:44,635  INFO main AbstractDao:getConnection:15 - getConnection()
+16:09:44,636  INFO main CategoryDao:getAllCategories:106 - Get all categories
+16:09:44,636  INFO main AbstractDao:stop:20 - stopConnection()
+16:43:17,766  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:43:18,444  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:43:18,512  INFO main AbstractDao:getConnection:15 - getConnection()
+16:43:18,539  INFO main CategoryDao:getIdFromCategory:263 - getID from category Games
+16:43:18,584  INFO main CategoryDao:getCategoryByName:90 - JDBC Transaction rolled back successfully and save category
+16:43:18,585 ERROR main CategoryDao:getCategoryByName:95 - java.sql.SQLException: Column 'sss' not found.
+16:47:08,753  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:09,611  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:09,671  INFO main AbstractDao:getConnection:15 - getConnection()
+16:47:09,697  INFO main CategoryDao:getIdFromCategory:229 - getID from category Games
+16:47:09,736  INFO main CategoryDao:getCategoryByName:56 - JDBC Transaction rolled back successfully and save category Games
+16:47:09,736 ERROR main CategoryDao:getCategoryByName:61 - java.sql.SQLException: Column 'sss' not found.
+16:47:48,793  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:49,426  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:49,488  INFO main AbstractDao:getConnection:15 - getConnection()
+16:47:49,518  INFO main CategoryDao:getIdFromCategory:229 - getID from category Games
+16:47:49,550  INFO main CategoryDao:getCategoryByName:56 - JDBC Transaction rolled back successfully and save category Games
+16:47:49,551 ERROR main CategoryDao:getCategoryByName:61 - java.sql.SQLException: Column 'sss' not found.
+16:47:56,767  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:57,476  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+16:47:57,550  INFO main AbstractDao:getConnection:15 - getConnection()
+16:47:57,574  INFO main NewsDao:getAllNews:104 - Get all news
+16:47:57,574  INFO main AbstractDao:stop:20 - stopConnection()
+17:24:42,158  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+17:24:42,889  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+17:24:42,976  INFO main AbstractDao:getConnection:15 - getConnection()
+17:24:43,010  INFO main NewsDao:getAllNews:104 - Get all news
+17:24:43,010  INFO main AbstractDao:stop:20 - stopConnection()
+17:24:52,213  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+17:24:52,865  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+17:24:52,935  INFO main AbstractDao:getConnection:15 - getConnection()
+17:24:52,953  INFO main CategoryDao:getIdFromCategory:229 - getID category Games
+17:24:52,982  INFO main CategoryDao:getCategoryByName:56 - JDBC Transaction rolled back successfully and save category Games
+17:24:52,982 ERROR main CategoryDao:getCategoryByName:61 - java.sql.SQLException: Column 'sss' not found.
+20:10:27,125  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:10:28,986  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:10:29,133  INFO main AbstractDao:getConnection:15 - getConnection()
+20:10:29,194  INFO main NewsDao:getAllNews:104 - Get all news
+20:10:29,195  INFO main AbstractDao:stop:20 - stopConnection()
+20:11:25,239  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:11:26,847  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:11:26,996  INFO main AbstractDao:getConnection:15 - getConnection()
+20:11:27,047  INFO main NewsDao:getAllNews:105 - Get all news
+20:11:27,048  INFO main AbstractDao:stop:20 - stopConnection()
+20:12:55,080  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:12:56,457  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+20:12:56,598  INFO main AbstractDao:getConnection:15 - getConnection()
+20:12:56,680  INFO main NewsDao:getAllNews:105 - Get all news
+20:12:56,681  INFO main AbstractDao:stop:20 - stopConnection()
+12:22:40,023  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:22:40,702  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:22:40,767  INFO main AbstractDao:getConnection:15 - getConnection()
+12:23:04,221  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:23:04,938  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:23:05,009  INFO main AbstractDao:getConnection:15 - getConnection()
+12:25:41,401  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:25:42,092  INFO main ConnectionPool:<init>:20 - Connected, URL = jdbc:mysql://localhost:3306/NEWS_AGENCY
+12:25:42,155  INFO main AbstractDao:getConnection:15 - getConnection()

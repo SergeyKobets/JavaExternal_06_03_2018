@@ -15,56 +15,42 @@ public class CategoryDao extends AbstractDao {
     private PreparedStatement statement = null;
 
     /**
-     *
      * @param categoryName
      * @return
      * @throws WrongValueException
      */
     public Category getCategoryByName(String categoryName) throws WrongValueException {
-
-        String sqlAllFromNews = "SELECT * FROM News WHERE CategoryID = ?";
+        String sqlAllFromNews = "SELECT * FROM Categories INNER JOIN News ON Categories.ID = News.CategoryID " +
+                "WHERE Categories.name = ?";
         Connection connection = getConnection();
         Category category = null;
-        Savepoint saveCategory = null;
 
         try {
-            connection.setAutoCommit(false);
-            int categoryID = getIdFromCategory(connection, categoryName);
-            category = new Category(categoryID, categoryName);
-
-            saveCategory = connection.setSavepoint("save category");
-
             statement = connection.prepareStatement(sqlAllFromNews);
-            statement.setInt(1, categoryID);
-            ResultSet newsSet = statement.executeQuery();
-            while (newsSet.next()) {
-                int newsID = newsSet.getInt("sss");
-                String context = newsSet.getString("context");
-                category.add(new News(newsID, context));
+            statement.setString(1, categoryName);
+
+            ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                if (category == null) {
+                    int category_id = resultSet.getInt(1);
+                    String category_name = resultSet.getString(2);
+                    category = new Category(category_id, category_name);
+                }
+
+                int news_id = resultSet.getInt(3);
+                String news_context = resultSet.getString(4);
+                category.add(new News(news_id, news_context));
             }
-
-            connection.commit();
-            stop(connection);
-            logger.info(String.format("Get category '%s'", categoryName.toUpperCase()));
-
-            return category;
         } catch (SQLException e) {
             System.out.printf("ОШИБКА при получении списка новостей из категории '%s'", categoryName);
-            if (saveCategory != null) {
-                try {
-                    connection.rollback();
-                    logger.info("JDBC Transaction rolled back successfully and save category " + category.getName());
-                } catch (SQLException e1) {
-                    logger.error(e1);
-                }
-            }
             logger.error(e);
             throw new WrongValueException();
         }
+        return category;
     }
 
     /**
-     *
      * @param name
      */
     public void addCategory(String name) {
@@ -83,7 +69,7 @@ public class CategoryDao extends AbstractDao {
                 System.out.printf("Категория %s уже существует\n", name);
             }
 
-             logger.info(String.format("Added category %s", name));
+            logger.info(String.format("Added category %s", name));
             stop(connection);
         } catch (SQLException e) {
             System.err.println("Категория " + name + " не добавлена");
@@ -213,25 +199,6 @@ public class CategoryDao extends AbstractDao {
             logger.info("Удалены новости категории " + name);
         } catch (SQLException e) {
             logger.error("Ошибка при удалении новостей из категории " + name);
-        }
-    }
-
-    private int getIdFromCategory(Connection connection, String name) {
-        String sqlIdFromCategory = "SELECT ID FROM Categories WHERE name = ?";
-
-        try {
-            statement = connection.prepareStatement(sqlIdFromCategory);
-            statement.setString(1, name);
-            ResultSet rs = statement.executeQuery();
-            rs.next();
-            int categoryID = rs.getInt(1);
-
-            logger.info("getID category " + name);
-            return categoryID;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            logger.error(e);
-            throw new WrongValueException();
         }
     }
 }

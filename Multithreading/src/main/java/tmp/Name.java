@@ -1,3 +1,5 @@
+package tmp;
+
 public enum Name {
     VASYA,
     PETYA,

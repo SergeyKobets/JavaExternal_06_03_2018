@@ -1,3 +1,5 @@
+package tmp;
+
 public class Customer {
     private String name;
     private int taskQty;
@@ -14,7 +16,6 @@ public class Customer {
     public int getTaskQty() {
         return taskQty;
     }
-
 
     @Override
     public String toString() {

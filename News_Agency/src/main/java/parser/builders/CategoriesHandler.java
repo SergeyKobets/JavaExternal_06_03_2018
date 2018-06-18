@@ -32,6 +32,7 @@ public class CategoriesHandler extends DefaultHandler {
         if ("categories".equals(localName)) {
             return;
         }
+
         if ("category".equals(localName)) {
             current = new Category();
             current.setId(Integer.parseInt(attributes.getValue("id")));
